@@ -68,9 +68,7 @@ function loadData(PartyA, PartyB) {
       }
       if (foundItem['style'] === "圖片") {
         console.log("圖片");
-        // window.location.href = '/';
         loadImgData(foundItem["Title"], foundItem["ext"], foundItem['Page'], foundItem["Time"]);
-        // loadImgData("第一回","png",5);
       } else if (foundItem['style'] === "網頁") {
         console.log("網頁");
       } else if (foundItem['style'] === "影片") {
